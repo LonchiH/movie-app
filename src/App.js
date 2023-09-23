@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 
+import './App.css'
+import searchIcon from './search.svg'
+
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=c16883c6";
 
 const App = () => {
@@ -17,7 +20,7 @@ const App = () => {
 
   return (
     <div className="App">
-      Hello World
+      <h1>MovieBOlds</h1>
     </div>
   );
 };
